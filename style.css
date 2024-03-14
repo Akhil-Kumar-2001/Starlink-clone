@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+}
+/* media........... */
+@media screen and (max-width: 1200px) {
+    .nav-hide{
+        display: none;
+    }
+    
+  }
+  .he1{
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.7;
+  }
+
+.home-container{
+    background:url(img/starlink-satellite-internet_banner.webp);
+    background-size: cover;
+    width: 100%;
+}
+.home-row{
+    height: 100vh;
+}
+.place1{
+    width: 270px;
+    height: 50px;
+    background-color: transparent !important;
+    color: wheat;
+    border: 1px solirelatived hsla(0,0%,100%,.6);
+    border-radius: 5px;
+}
+.a1 img{ 
+   
+    transition: transform .5s;
+    
+}
+.a1:hover img{
+    transform: scale(1.1); 
+}
+.a1 h2{
+  position: absolute;  
+  top: 0;
+}
+.a1{
+    position: relative;
+}
+.a1 h5{
+    position: absolute;  
+  top: 0; 
+}
+.home-rows{
+    height: 100vh;
+}
+.home-co{
+    background:url(img/home_illustriation1_d.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.home-rowsa{
+    height: 100vh;
+}
+.home-con{
+    background:url(img/rocket.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.home-rowsab{
+    height: 100vh;
+}
+.home-conf{
+    background:url(img/home_illustriation1_d.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.home-containerr{
+    background:url(img/home_illustriation1_d.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.home-roww{
+    height: 100vh;
+}
+.placeone{
+    color: white;
+    width: 250px;
+    height: 50px;
+    background-color: transparent !important;
+    background: hsla(0,0%,100%,.15);
+    border: 2px solirelatived hsla(0,0%,100%,.6);
+    border-radius: 5px;
+}
+.footer{
+    background-color: black;
+}
+.mone {
+    font-size: 12px;
+}
+.tone{
+    height: 30px;
+    width: 200px;
+    background-color: transparent;
+    background-color: transparent !important;
+    background: hsla(0,0%,100%,.15);
+    border: 1px solirelatived hsla(0,0%,100%,.6);
+    border-radius: 5px;
+}
+.Rightsidebar{
+display: none;
+
+}
+.Rightsidebar{
+    display:none;
+    position: fixed;
+    background-color:rgb(17, 17, 17) ;
+    top: 0;
+    right:0;
+    height:100vh;
+    width: 350px;
+    padding-top: 30px;
+    padding-left: 10px;
+    z-index: 1;
+    flex-direction: column;
+    
+}
+
+
+.Rightsidebar ul a{
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    line-height: 20px;
+    margin-top: 30px;
+
+    
+}
+.Rightsidebar ul{
+    list-style: none;
+    margin-left: 0;
+}
